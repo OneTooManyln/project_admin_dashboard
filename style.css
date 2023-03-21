@@ -10,6 +10,14 @@ html {
 
 .sidebar {
     grid-row: 1 / 3;
+    display: grid;
+    gap: 15px;
+}
+
+.sidebar ul {
+    display: grid;
+    gap: 30px;;
+    list-style-type: none;
 }
 
 .footer {
