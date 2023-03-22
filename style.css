@@ -69,6 +69,18 @@ body {
 .cards {
     border: solid grey;
     background-color: var(--main-background-color);
+    padding: 23px;
+}
+
+.cards p {
+    font-size: 14px;
+    color: rgb(114, 114, 114);
+    font-weight: 400px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .mc-right {
