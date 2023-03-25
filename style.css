@@ -58,7 +58,7 @@ body {
 .sidebar ul {
     display: grid;
     gap: 30px;;
-    list-style-type: none;
+    list-style-type: none; 
     color: white;
     font-weight: bold;
 }
@@ -68,6 +68,7 @@ body {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 4fr 1fr;    
     gap: 15px;
+    padding-left: 15px;
 
 }
 
@@ -84,10 +85,13 @@ body {
     gap: 15px;
 }
 
-.cards {
-    border: solid grey;
+.cards,
+.news,
+.trending {
+    /* border: solid grey; */
     background-color: var(--main-background-color);
     padding: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.082);
 }
 
 .cards p {
@@ -109,12 +113,6 @@ h2 {
 .content-container {
     display: grid;
     grid-template-rows: 4fr 1fr 4fr;
-}
-
-.news, 
-.trending {
-    border: solid grey;
-    background-color: var(--main-background-color);
 }
 
 .footer {
