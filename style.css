@@ -74,14 +74,17 @@ input {
     color: white;
     font-weight: bold;
     grid-auto-rows: max-content;
+    padding: 25px;
+    row-gap: 30px;
 }
 
-.sidebar ul {
-    display: grid;
-    gap: 30px;;
-    list-style-type: none; 
-    color: white;
+.sidebar a {
+    text-decoration: none;
+    color: white; 
     font-weight: bold;
+    padding-left: 25px;    
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
 }
 
 .main-content {
@@ -139,7 +142,7 @@ input {
     font-weight: 400px;
 }
 
-h2 {
+.main-content h2 {
     font-size: 18px;
     font-weight: 400;
 }
