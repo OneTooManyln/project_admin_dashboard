@@ -29,6 +29,7 @@ body {
     background-position: center;
     height: 200px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.489);
+    margin-bottom: 40px;
 }
 
 .header-container {
@@ -123,7 +124,7 @@ input {
 .projects {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 11fr;
 }
 
 .projects-container {
@@ -147,7 +148,7 @@ input {
 
 .mc-right {
     display: grid;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 11fr;
 }
 
 .content-container {
