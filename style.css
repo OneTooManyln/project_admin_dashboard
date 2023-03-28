@@ -51,10 +51,12 @@ body {
 }
 
 .right button {
-    background-color: white;
+    background-color: #334155;
+    border-radius: 4px;
     border: none;
     font-size: 15px;
     padding: 4px 14px;
+    color: white;
 }
 
 input {
