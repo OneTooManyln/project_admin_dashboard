@@ -19,7 +19,6 @@ body {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;    
 /*     gap: 15px; */
-    height: 100vh;
 }
 
 .header {
@@ -85,9 +84,13 @@ input {
     text-decoration: none;
     color: white; 
     font-weight: bold;
-    padding-left: 25px;    
+    /* padding-left: 25px;  */   
     background-repeat: no-repeat;
     background-size: 18px 18px;
+}
+
+.sidebar h2 {
+    margin: 0;
 }
 
 .navigation-items {
@@ -99,7 +102,7 @@ input {
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 4fr 1fr;    
+    grid-template-rows: max-content;    
     gap: 15px;
     padding-left: 20px;
 
@@ -124,7 +127,7 @@ input {
 .projects {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 11fr;
+    grid-template-rows: max-content;
 }
 
 .projects-container {
@@ -148,7 +151,7 @@ input {
 
 .mc-right {
     display: grid;
-    grid-template-rows: 1fr 11fr;
+    grid-template-rows: max-content;
 }
 
 .content-container {
