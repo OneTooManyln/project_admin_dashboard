@@ -169,6 +169,7 @@ input {
     background-color: var(--main-background-color);
     /* padding: 23px; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.082);
+    border-radius: 8px;
 }
 
 .cards p,
@@ -186,6 +187,8 @@ input {
     background-color: #334155;
     margin: 0;
     padding: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .footer {
     grid-row: 2;
