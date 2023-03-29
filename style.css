@@ -44,7 +44,14 @@ body {
     display: flex;
 }
 
-.right {
+.user-profile {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.right,
+.left {
     display: flex;
     gap: 10px;
     align-items: center;
